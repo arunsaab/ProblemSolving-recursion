@@ -14,5 +14,5 @@ private void findCombinations(int idx , int arr[], int target, List<List<Integer
     findCombinations(idx,arr, target-arr[idx], ans , res);
     res.remove(res.size()-1);
   }
-  findCombinations(idx+1,arr, target , and , res);
+  findCombinations(idx+1,arr, target , ans , res);
 }
